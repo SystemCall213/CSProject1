@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3ockv86q45bh"]
+
+[ext_resource type="PackedScene" uid="uid://cgxgtyexuy3vm" path="res://icon.tscn" id="1_wp2os"]
+
+[node name="World" type="Node2D"]
+
+[node name="Icon" parent="." instance=ExtResource("1_wp2os")]

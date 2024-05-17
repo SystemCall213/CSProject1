@@ -11,10 +11,18 @@ config_version=5
 [application]
 
 config/name="CSProject1"
-run/main_scene="res://world.tscn"
+run/main_scene="res://scenes/world.tscn"
 config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_height=600
 
 [dotnet]
 
 project/assembly_name="CSProject1"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg")

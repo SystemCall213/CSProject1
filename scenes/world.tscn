@@ -1,7 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://b3ockv86q45bh"]
 
-[ext_resource type="PackedScene" uid="uid://cgxgtyexuy3vm" path="res://icon.tscn" id="1_wp2os"]
+[ext_resource type="PackedScene" uid="uid://bx7hiybalq2w4" path="res://scenes/Player.tscn" id="2_7efkx"]
 
 [node name="World" type="Node2D"]
 
-[node name="Icon" parent="." instance=ExtResource("1_wp2os")]
+[node name="Player" parent="." instance=ExtResource("2_7efkx")]
+position = Vector2(82, 45)

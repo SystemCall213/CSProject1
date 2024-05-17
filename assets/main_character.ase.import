@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://vo7i6eilfjpi"
+path="res://.godot/imported/main_character.ase-5cae4bd7acb32a4f15096e7ed65bead3.res"
+
+[deps]
+
+source_file="res://assets/main_character.ase"
+dest_files=["res://.godot/imported/main_character.ase-5cae4bd7acb32a4f15096e7ed65bead3.res"]
+
+[params]
+

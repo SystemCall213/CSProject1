@@ -37,6 +37,7 @@ public partial class StateMachine : Node
 
     public override void _UnhandledInput(InputEvent @event)
     {
+		GD.Print(@event);
         _currentState.HandleInput(@event);
     }
 
